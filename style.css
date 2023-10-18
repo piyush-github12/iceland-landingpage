@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(./mountain.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{ 
+    
+    font-weight: 900;
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    font-size: 150px;
+    letter-spacing: 50px;
+    font-family: "gilroy";
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(./3.png);
+    background-position: bottom;
+    /* object-position: 20% 20px; */
+    background-size: cover;
+    /* -webkit-text-stroke: 5px black; */
+    /* text-shadow: 0px 10px 30px  rgb(0, 0, 0); */
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.395);
+    /* z-index: 2; */
+}
+
+#main h2{
+    /* text-shadow: 0px 5px 20px black; */
+    /* -webkit-text-stroke: 1px black; */
+    letter-spacing: 5px;
+    font-family: "bryan khostang";
+    scale: 1.5;
+    position: absolute;
+    /* left: 40%; */
+    text-align: center;
+    /* width: 100%; */
+    left: 40%;
+    top: 15%;
+    color: rgb(84, 109, 49);
+    /* z-index: 2; */
+}
+#main #a{
+    width: 150px;
+    position: absolute;
+    left: 52%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    rotate: -35deg;
+}
+#b{
+    width: 200px;
+    position: absolute;
+    left: 74%;
+    top: 14.5%;
+    rotate: 10deg;
+}
+
+#c{
+    position: absolute;
+    top: 34%;
+    left: 25.5%;
+    width: 50px;
+    
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: chocolate; */
+    display: flex;
+}
+#nav1{
+    width: 50%;
+}
+#nav1 img{
+    height: 200px;
+    margin-top: -40px;
+}
+#nav2{
+    text-decoration: underline 2px;
+    text-underline-offset: 10px ;
+    padding-left: 100px;
+    scale: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80PX;
+    width: 50%;
+    font-family: "gilroy";
+}
+#h4{
+    position: absolute;
+    font-family: "monument";
+    margin-left: 30px;
+    letter-spacing: 3px;
+    /* font-family: "bryan khostang"; */
+
+}
+
+
+#bottom{
+    width: 100%;
+    height: 120px;
+    /* background-color: rgba(182, 25, 25, 0.514); */
+    position: absolute;
+    bottom: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#btm1,#btm2,#btm3{
+    font-family: "gilroy";
+    width: 250px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.228);
+    /* border-top-right-radius: 20px  ;
+    border-top-left-radius: 20px; */
+    border-radius: 20px;
+
+    border-bottom: 5px solid white;
+    border-top: 5px solid rgb(255, 255, 255);
+}
+
+#btm2a{
+    margin-top: 10px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: aliceblue; */
+}
+
+#bottom img{
+    height: 40px;
+}
+#bottom h5{
+    margin-left: 60px ;
+    margin-top: 5px;
+}
+#bottom h4{
+    font-family: "monument";
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    /* font-size: 20px; */
+    
+}
+#btm3 h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#bottom p{
+    font-family: "gilroy";
+    line-height: 18px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#main p{
+
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: "bryan khostang";
+    font-size: 25px;
+    line-height: 35px;
+    word-spacing: 10px;
+    /* background-color: aquamarine; */
+    padding: 20px 20px;
+    border-radius: 20px;
+    /* color: peru; */
+    border-left: 5px double black;
+    border-right: 5px solid black;
+    /* box-shadow: 0px 0px 10px  black; */
+
+}
+
+
+#box{
+    /* background-color: black; */
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   margin-top: 20%;
+   margin-left: 400px;
+    
+}
+
+#box1,#box2,#box3{
+
+    border-radius: 20px;
+    /* border-left: 5px solid black; */
+    /* border-right: 5px solid black; */
+    width: 150px;
+    height: 150px;
+    /* background-color: rgba(0, 0, 0, 0.265); */
+    background-color: transparent;
+    box-shadow: 0px 0px 20px  10px black;
+}
+#box1{
+    background-image: url(https://images.prismic.io/visiticeland/13eed82e-ff5b-4f56-95aa-88323a583a67_Kirkjufell_Northern%20Lights_3000.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=0%2C213%2C3000%2C1575&w=1200&h=630);
+    background-size: cover;
+    
+}
